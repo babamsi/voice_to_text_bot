@@ -11,7 +11,7 @@ const bot = new Telegraf(process.env.BOT_TOKEN);
 const recognize = configureRecognizer({
   key: process.env.SUBSCRIPTION_KEY,
   region: 'eastus',
-  language: 'en-US'
+  language: 'so-SO'
 });
 
 if (recognize) {
